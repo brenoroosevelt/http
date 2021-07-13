@@ -1,0 +1,19 @@
+{
+    "name": "brenoroosevelt/http",
+    "description": "Http router and dispatcher",
+    "require": {
+        "php": ">=7.4",
+        "league/route": "^5.0",
+        "laminas/laminas-diactoros": "^2.6",
+        "laminas/laminas-httphandlerrunner": "^1.4",
+        "brenoroosevelt/habemus": "^1.1",
+        "middlewares/utils": "^3.0",
+        "middlewares/whoops": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrenoRoosevelt\\Http\\" : "src/",
+            "BrenoRoosevelt\\Http\\Test\\" : "tests/"
+        }
+    }
+}
