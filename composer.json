@@ -1,6 +1,13 @@
 {
     "name": "brenoroosevelt/http",
     "description": "Http router and dispatcher for development purpose",
+    "authors": [
+        {
+            "name": "Breno Roosevelt",
+            "email": "breno.roosevelt@gmail.com"
+        }
+    ],
+    "license": ["MIT"],
     "require": {
         "php": ">=7.4",
         "league/route": "^5.0",
@@ -15,5 +22,6 @@
             "BrenoRoosevelt\\Http\\" : "src/",
             "BrenoRoosevelt\\Http\\Test\\" : "tests/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
