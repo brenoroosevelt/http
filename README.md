@@ -1,5 +1,5 @@
 # Http router and dispatcher
-Http router and dispatcher.
+Http router and dispatcher for development purpose.
 
 ## Install
 Via composer 
