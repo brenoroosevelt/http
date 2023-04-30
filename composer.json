@@ -12,7 +12,7 @@
         "php": ">=7.4",
         "league/route": "^5",
         "laminas/laminas-diactoros": "^2",
-        "laminas/laminas-httphandlerrunner": "^1",
+        "laminas/laminas-httphandlerrunner": "^1 || ^2",
         "brenoroosevelt/habemus": "^1.1",
         "middlewares/utils": "@stable",
         "middlewares/whoops": "@stable"
